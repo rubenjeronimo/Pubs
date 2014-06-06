@@ -18,7 +18,16 @@
 		237415BB1941AC1900BBAB44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237415A01941AC1900BBAB44 /* Foundation.framework */; };
 		237415BC1941AC1900BBAB44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237415A41941AC1900BBAB44 /* UIKit.framework */; };
 		237415C41941AC1900BBAB44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 237415C21941AC1900BBAB44 /* InfoPlist.strings */; };
-		237415C61941AC1900BBAB44 /* PubsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 237415C51941AC1900BBAB44 /* PubsTests.m */; };
+		237415D41941AC3800BBAB44 /* bar-madrid-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 237415CF1941AC3800BBAB44 /* bar-madrid-1.jpg */; };
+		237415D51941AC3800BBAB44 /* bar-madrid-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 237415D01941AC3800BBAB44 /* bar-madrid-2.jpg */; };
+		237415D61941AC3800BBAB44 /* bar-madrid-3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 237415D11941AC3800BBAB44 /* bar-madrid-3.JPG */; };
+		237415D71941AC3800BBAB44 /* bar-madrid-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 237415D21941AC3800BBAB44 /* bar-madrid-4.jpg */; };
+		237415D81941AC3800BBAB44 /* bar-madrid-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 237415D31941AC3800BBAB44 /* bar-madrid-5.jpg */; };
+		237415DB1941AC5900BBAB44 /* Bar.m in Sources */ = {isa = PBXBuildFile; fileRef = 237415DA1941AC5900BBAB44 /* Bar.m */; };
+		237415DE1941AFB000BBAB44 /* BarList.m in Sources */ = {isa = PBXBuildFile; fileRef = 237415DD1941AFB000BBAB44 /* BarList.m */; };
+		237415E01941B0C100BBAB44 /* BarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 237415DF1941B0C100BBAB44 /* BarTests.m */; };
+		237415E21941B0E500BBAB44 /* BarListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 237415E11941B0E500BBAB44 /* BarListTests.m */; };
+		237415E41941B1CA00BBAB44 /* bar_list.plist in Resources */ = {isa = PBXBuildFile; fileRef = 237415E31941B1CA00BBAB44 /* bar_list.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +56,18 @@
 		237415B91941AC1900BBAB44 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		237415C11941AC1900BBAB44 /* PubsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PubsTests-Info.plist"; sourceTree = "<group>"; };
 		237415C31941AC1900BBAB44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		237415C51941AC1900BBAB44 /* PubsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PubsTests.m; sourceTree = "<group>"; };
+		237415CF1941AC3800BBAB44 /* bar-madrid-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bar-madrid-1.jpg"; sourceTree = "<group>"; };
+		237415D01941AC3800BBAB44 /* bar-madrid-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bar-madrid-2.jpg"; sourceTree = "<group>"; };
+		237415D11941AC3800BBAB44 /* bar-madrid-3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bar-madrid-3.JPG"; sourceTree = "<group>"; };
+		237415D21941AC3800BBAB44 /* bar-madrid-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bar-madrid-4.jpg"; sourceTree = "<group>"; };
+		237415D31941AC3800BBAB44 /* bar-madrid-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bar-madrid-5.jpg"; sourceTree = "<group>"; };
+		237415D91941AC5900BBAB44 /* Bar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bar.h; sourceTree = "<group>"; };
+		237415DA1941AC5900BBAB44 /* Bar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bar.m; sourceTree = "<group>"; };
+		237415DC1941AFB000BBAB44 /* BarList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarList.h; sourceTree = "<group>"; };
+		237415DD1941AFB000BBAB44 /* BarList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarList.m; sourceTree = "<group>"; };
+		237415DF1941B0C100BBAB44 /* BarTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarTests.m; sourceTree = "<group>"; };
+		237415E11941B0E500BBAB44 /* BarListTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarListTests.m; sourceTree = "<group>"; };
+		237415E31941B1CA00BBAB44 /* bar_list.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bar_list.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +97,11 @@
 		237415941941AC1900BBAB44 = {
 			isa = PBXGroup;
 			children = (
+				237415CF1941AC3800BBAB44 /* bar-madrid-1.jpg */,
+				237415D01941AC3800BBAB44 /* bar-madrid-2.jpg */,
+				237415D11941AC3800BBAB44 /* bar-madrid-3.JPG */,
+				237415D21941AC3800BBAB44 /* bar-madrid-4.jpg */,
+				237415D31941AC3800BBAB44 /* bar-madrid-5.jpg */,
 				237415A61941AC1900BBAB44 /* Pubs */,
 				237415BF1941AC1900BBAB44 /* PubsTests */,
 				2374159F1941AC1900BBAB44 /* Frameworks */,
@@ -111,6 +136,11 @@
 				237415B01941AC1900BBAB44 /* AppDelegate.m */,
 				237415B21941AC1900BBAB44 /* Images.xcassets */,
 				237415A71941AC1900BBAB44 /* Supporting Files */,
+				237415D91941AC5900BBAB44 /* Bar.h */,
+				237415DA1941AC5900BBAB44 /* Bar.m */,
+				237415DC1941AFB000BBAB44 /* BarList.h */,
+				237415DD1941AFB000BBAB44 /* BarList.m */,
+				237415E31941B1CA00BBAB44 /* bar_list.plist */,
 			);
 			path = Pubs;
 			sourceTree = "<group>";
@@ -129,7 +159,8 @@
 		237415BF1941AC1900BBAB44 /* PubsTests */ = {
 			isa = PBXGroup;
 			children = (
-				237415C51941AC1900BBAB44 /* PubsTests.m */,
+				237415DF1941B0C100BBAB44 /* BarTests.m */,
+				237415E11941B0E500BBAB44 /* BarListTests.m */,
 				237415C01941AC1900BBAB44 /* Supporting Files */,
 			);
 			path = PubsTests;
@@ -219,7 +250,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				237415E41941B1CA00BBAB44 /* bar_list.plist in Resources */,
+				237415D41941AC3800BBAB44 /* bar-madrid-1.jpg in Resources */,
+				237415D51941AC3800BBAB44 /* bar-madrid-2.jpg in Resources */,
+				237415D81941AC3800BBAB44 /* bar-madrid-5.jpg in Resources */,
 				237415AB1941AC1900BBAB44 /* InfoPlist.strings in Resources */,
+				237415D71941AC3800BBAB44 /* bar-madrid-4.jpg in Resources */,
+				237415D61941AC3800BBAB44 /* bar-madrid-3.JPG in Resources */,
 				237415B31941AC1900BBAB44 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				237415DB1941AC5900BBAB44 /* Bar.m in Sources */,
+				237415DE1941AFB000BBAB44 /* BarList.m in Sources */,
 				237415B11941AC1900BBAB44 /* AppDelegate.m in Sources */,
 				237415AD1941AC1900BBAB44 /* main.m in Sources */,
 			);
@@ -248,7 +287,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				237415C61941AC1900BBAB44 /* PubsTests.m in Sources */,
+				237415E01941B0C100BBAB44 /* BarTests.m in Sources */,
+				237415E21941B0E500BBAB44 /* BarListTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

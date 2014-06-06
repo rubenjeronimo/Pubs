@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>el de la esquina</string>
+		<key>adress</key>
+		<string>C/ la esquina 3</string>
+		<key>position</key>
+		<dict>
+			<key>longitude</key>
+			<string>-3.8730758</string>
+			<key>latitude</key>
+			<string>40.4789826</string>
+		</dict>
+		<key>photoUrl</key>
+		<string>http://img.photobucket.com/albums/v644/spido/chiquito.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>el otro</string>
+		<key>adress</key>
+		<string>C/ la esquina 3</string>
+		<key>position</key>
+		<dict>
+			<key>longitude</key>
+			<string>-3.8730758</string>
+			<key>latitude</key>
+			<string>40.4789826</string>
+		</dict>
+		<key>photoUrl</key>
+		<string>http://img.photobucket.com/albums/v644/spido/chiquito.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>que bien se bebe aqui</string>
+		<key>adress</key>
+		<string>C/ la esquina 3</string>
+		<key>position</key>
+		<dict>
+			<key>longitude</key>
+			<string>-3.8730758</string>
+			<key>latitude</key>
+			<string>40.4789826</string>
+		</dict>
+		<key>photoUrl</key>
+		<string>http://img.photobucket.com/albums/v644/spido/chiquito.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>castaña la noir</string>
+		<key>adress</key>
+		<string>C/ la esquina 3</string>
+		<key>position</key>
+		<dict>
+			<key>longitude</key>
+			<string>-3.8730758</string>
+			<key>latitude</key>
+			<string>40.4789826</string>
+		</dict>
+		<key>photoUrl</key>
+		<string>http://img.photobucket.com/albums/v644/spido/chiquito.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>chiquito´s pub</string>
+		<key>adress</key>
+		<string>C/ la esquina 3</string>
+		<key>position</key>
+		<dict>
+			<key>longitude</key>
+			<string>-3.8730758</string>
+			<key>latitude</key>
+			<string>40.4789826</string>
+		</dict>
+		<key>photoUrl</key>
+		<string>http://img.photobucket.com/albums/v644/spido/chiquito.jpg</string>
+	</dict>
+</array>
+</plist>

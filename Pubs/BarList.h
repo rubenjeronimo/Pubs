@@ -12,6 +12,7 @@
 @interface BarList : NSObject
 
 @property (nonatomic, readonly) NSUInteger count;
+@property (nonatomic) NSInteger barNumber;
 
 
 - (void)addBar:(Bar *)bar;
@@ -19,5 +20,7 @@
 - (NSUInteger)count;
 - (NSArray *)allBars;
 - (id)initWithFile:(NSString *)fileName;
+- (Bar *)nextBar;
+- (Bar *)prevBar;
 
 @end

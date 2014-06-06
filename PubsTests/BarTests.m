@@ -21,11 +21,6 @@
     XCTAssertEqual(0, [allBars count], @"");
 }
 
-- (void)testCanCreateABarListKVC {
-    BarList *allBars = [[BarList alloc] init];
-    XCTAssertNotNil(allBars, @"");
-    XCTAssertEqual(0, [[allBars valueForKey:@"count"] integerValue], @"");
-}
 
 - (void)testCanAddABarToTheList {
     BarList *allBars = [[BarList alloc] init];
@@ -48,17 +43,17 @@
     }
 }
 
-- (void)testCanAddABarToTheListKVC {
-    BarList *allBars = [[BarList alloc] init];
-    XCTAssertNotNil(allBars, @"");
-    XCTAssertEqual(0, [[allBars valueForKey:@"count"] integerValue], @"");
+- (void)testinitBarWithNameAddressAndPosition {
+    NSDictionary *dict = [[NSDictionary alloc] initWithObjects:@[@"-3.8730758",@"40.4789826"] forKeys:@[@"longitude", @"latitude"]];
+    Bar *bar = [[Bar alloc] initWithName:@"Bar1" andAddress:@"Alli" andPosition:dict];
+    XCTAssertEqual(bar.name, @"Bar1", @"");
+    XCTAssertEqual(bar.address, @"Alli", @"");
     
-    Bar *mahou = [[Bar alloc] init];
-    [allBars addBar:mahou];
-    XCTAssertEqual(1, [[allBars valueForKey:@"count"] integerValue], @"");
+    NSString *lon = [bar.position objectForKey:@"longitude"];
+    XCTAssertEqual(lon, @"-3.8730758", @"");
+    NSString *lat = [bar.position objectForKey:@"latitude"];
+    XCTAssertEqual(lat, @"40.4789826", @"");
 }
-
-
 - (void)testCanRemoveABarFromTheList {
     BarList *allBars = [[BarList alloc] init];
     XCTAssertEqual(0, [allBars count], @"");
@@ -68,17 +63,6 @@
     XCTAssertEqual(1, [allBars count], @"");
     [allBars removeBar:mahou];
     XCTAssertEqual(0, [allBars count], @"");
-}
-
-- (void)testCanRemoveABarFromTheListKVC {
-    BarList *allBars = [[BarList alloc] init];
-    XCTAssertEqual(0, [allBars count], @"");
-    
-    Bar *mahou = [[Bar alloc] init];
-    [allBars addBar:mahou];
-    XCTAssertEqual(1, [[allBars valueForKey:@"count"] integerValue], @"");
-    [allBars removeBar:mahou];
-    XCTAssertEqual(0, [[allBars valueForKey:@"count"] integerValue], @"");
 }
 
 - (void)testAllBars {
@@ -126,15 +110,6 @@
     XCTAssertTrue([allBars count] == 4, @"");
 }
 
-- (void)testCountBarsKVC {
-    BarList *allBars = [[BarList alloc] init];
-    Bar *mahou = [[Bar alloc] init];
-    [allBars addBar:mahou];
-    [allBars addBar:mahou];
-    [allBars addBar:mahou];
-    [allBars addBar:mahou];
-    XCTAssertTrue([[allBars valueForKey:@"count"] integerValue] == 4, @"");
-}
 
 - (void)testCantChangeCountOfBars {
     BarList *allBars = [[BarList alloc] init];

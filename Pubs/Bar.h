@@ -15,7 +15,7 @@
 @property (nonatomic) NSUInteger rate;
 @property (nonatomic, strong) NSString *description;
 @property (nonatomic, strong) NSDictionary *position;
-@property (nonatomic, strong) NSURL *photoUrl;
+@property (nonatomic, strong) NSString *photoUrl;
 
 
 - (id)init; // overwrite

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		231F7F46194204F300A11162 /* ic_starred.png in Resources */ = {isa = PBXBuildFile; fileRef = 231F7F44194204F300A11162 /* ic_starred.png */; };
+		231F7F47194204F300A11162 /* ic_starredept.png in Resources */ = {isa = PBXBuildFile; fileRef = 231F7F45194204F300A11162 /* ic_starredept.png */; };
 		237415A11941AC1900BBAB44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237415A01941AC1900BBAB44 /* Foundation.framework */; };
 		237415A31941AC1900BBAB44 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237415A21941AC1900BBAB44 /* CoreGraphics.framework */; };
 		237415A51941AC1900BBAB44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237415A41941AC1900BBAB44 /* UIKit.framework */; };
@@ -18,16 +20,16 @@
 		237415BB1941AC1900BBAB44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237415A01941AC1900BBAB44 /* Foundation.framework */; };
 		237415BC1941AC1900BBAB44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237415A41941AC1900BBAB44 /* UIKit.framework */; };
 		237415C41941AC1900BBAB44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 237415C21941AC1900BBAB44 /* InfoPlist.strings */; };
-		237415D41941AC3800BBAB44 /* bar-madrid-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 237415CF1941AC3800BBAB44 /* bar-madrid-1.jpg */; };
-		237415D51941AC3800BBAB44 /* bar-madrid-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 237415D01941AC3800BBAB44 /* bar-madrid-2.jpg */; };
-		237415D61941AC3800BBAB44 /* bar-madrid-3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 237415D11941AC3800BBAB44 /* bar-madrid-3.JPG */; };
-		237415D71941AC3800BBAB44 /* bar-madrid-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 237415D21941AC3800BBAB44 /* bar-madrid-4.jpg */; };
-		237415D81941AC3800BBAB44 /* bar-madrid-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 237415D31941AC3800BBAB44 /* bar-madrid-5.jpg */; };
 		237415DB1941AC5900BBAB44 /* Bar.m in Sources */ = {isa = PBXBuildFile; fileRef = 237415DA1941AC5900BBAB44 /* Bar.m */; };
 		237415DE1941AFB000BBAB44 /* BarList.m in Sources */ = {isa = PBXBuildFile; fileRef = 237415DD1941AFB000BBAB44 /* BarList.m */; };
 		237415E01941B0C100BBAB44 /* BarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 237415DF1941B0C100BBAB44 /* BarTests.m */; };
 		237415E21941B0E500BBAB44 /* BarListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 237415E11941B0E500BBAB44 /* BarListTests.m */; };
 		237415E41941B1CA00BBAB44 /* bar_list.plist in Resources */ = {isa = PBXBuildFile; fileRef = 237415E31941B1CA00BBAB44 /* bar_list.plist */; };
+		237415E61941BA8B00BBAB44 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237415E51941BA8B00BBAB44 /* Storyboard.storyboard */; };
+		237415E91941BC1600BBAB44 /* BarListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 237415E81941BC1600BBAB44 /* BarListViewController.m */; };
+		237415EB1941F6F600BBAB44 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237415EA1941F6F600BBAB44 /* MapKit.framework */; };
+		237415EE1941F79900BBAB44 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 237415ED1941F79900BBAB44 /* DetailViewController.m */; };
+		E20D853F16D945BE82730AAA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AAF3F77A3924337876A62E7 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		231F7F44194204F300A11162 /* ic_starred.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_starred.png; sourceTree = "<group>"; };
+		231F7F45194204F300A11162 /* ic_starredept.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_starredept.png; sourceTree = "<group>"; };
 		2374159D1941AC1900BBAB44 /* Pubs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pubs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		237415A01941AC1900BBAB44 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		237415A21941AC1900BBAB44 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,11 +60,6 @@
 		237415B91941AC1900BBAB44 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		237415C11941AC1900BBAB44 /* PubsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PubsTests-Info.plist"; sourceTree = "<group>"; };
 		237415C31941AC1900BBAB44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		237415CF1941AC3800BBAB44 /* bar-madrid-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bar-madrid-1.jpg"; sourceTree = "<group>"; };
-		237415D01941AC3800BBAB44 /* bar-madrid-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bar-madrid-2.jpg"; sourceTree = "<group>"; };
-		237415D11941AC3800BBAB44 /* bar-madrid-3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bar-madrid-3.JPG"; sourceTree = "<group>"; };
-		237415D21941AC3800BBAB44 /* bar-madrid-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bar-madrid-4.jpg"; sourceTree = "<group>"; };
-		237415D31941AC3800BBAB44 /* bar-madrid-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bar-madrid-5.jpg"; sourceTree = "<group>"; };
 		237415D91941AC5900BBAB44 /* Bar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bar.h; sourceTree = "<group>"; };
 		237415DA1941AC5900BBAB44 /* Bar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bar.m; sourceTree = "<group>"; };
 		237415DC1941AFB000BBAB44 /* BarList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarList.h; sourceTree = "<group>"; };
@@ -68,6 +67,15 @@
 		237415DF1941B0C100BBAB44 /* BarTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarTests.m; sourceTree = "<group>"; };
 		237415E11941B0E500BBAB44 /* BarListTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarListTests.m; sourceTree = "<group>"; };
 		237415E31941B1CA00BBAB44 /* bar_list.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bar_list.plist; sourceTree = "<group>"; };
+		237415E51941BA8B00BBAB44 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		237415E71941BC1600BBAB44 /* BarListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarListViewController.h; sourceTree = "<group>"; };
+		237415E81941BC1600BBAB44 /* BarListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarListViewController.m; sourceTree = "<group>"; };
+		237415EA1941F6F600BBAB44 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		237415EC1941F79900BBAB44 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../DetailViewController.h; sourceTree = "<group>"; };
+		237415ED1941F79900BBAB44 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../DetailViewController.m; sourceTree = "<group>"; };
+		237415EF1941FE2D00BBAB44 /* PodFile */ = {isa = PBXFileReference; lastKnownFileType = text; path = PodFile; sourceTree = "<group>"; };
+		49951A925DC6436D9AD65FF3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		8AAF3F77A3924337876A62E7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +83,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				237415EB1941F6F600BBAB44 /* MapKit.framework in Frameworks */,
 				237415A31941AC1900BBAB44 /* CoreGraphics.framework in Frameworks */,
 				237415A51941AC1900BBAB44 /* UIKit.framework in Frameworks */,
 				237415A11941AC1900BBAB44 /* Foundation.framework in Frameworks */,
+				E20D853F16D945BE82730AAA /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,15 +107,13 @@
 		237415941941AC1900BBAB44 = {
 			isa = PBXGroup;
 			children = (
-				237415CF1941AC3800BBAB44 /* bar-madrid-1.jpg */,
-				237415D01941AC3800BBAB44 /* bar-madrid-2.jpg */,
-				237415D11941AC3800BBAB44 /* bar-madrid-3.JPG */,
-				237415D21941AC3800BBAB44 /* bar-madrid-4.jpg */,
-				237415D31941AC3800BBAB44 /* bar-madrid-5.jpg */,
+				237415E51941BA8B00BBAB44 /* Storyboard.storyboard */,
+				237415EF1941FE2D00BBAB44 /* PodFile */,
 				237415A61941AC1900BBAB44 /* Pubs */,
 				237415BF1941AC1900BBAB44 /* PubsTests */,
 				2374159F1941AC1900BBAB44 /* Frameworks */,
 				2374159E1941AC1900BBAB44 /* Products */,
+				49951A925DC6436D9AD65FF3 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,10 +129,12 @@
 		2374159F1941AC1900BBAB44 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				237415EA1941F6F600BBAB44 /* MapKit.framework */,
 				237415A01941AC1900BBAB44 /* Foundation.framework */,
 				237415A21941AC1900BBAB44 /* CoreGraphics.framework */,
 				237415A41941AC1900BBAB44 /* UIKit.framework */,
 				237415B91941AC1900BBAB44 /* XCTest.framework */,
+				8AAF3F77A3924337876A62E7 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,6 +142,8 @@
 		237415A61941AC1900BBAB44 /* Pubs */ = {
 			isa = PBXGroup;
 			children = (
+				231F7F44194204F300A11162 /* ic_starred.png */,
+				231F7F45194204F300A11162 /* ic_starredept.png */,
 				237415AF1941AC1900BBAB44 /* AppDelegate.h */,
 				237415B01941AC1900BBAB44 /* AppDelegate.m */,
 				237415B21941AC1900BBAB44 /* Images.xcassets */,
@@ -141,6 +153,10 @@
 				237415DC1941AFB000BBAB44 /* BarList.h */,
 				237415DD1941AFB000BBAB44 /* BarList.m */,
 				237415E31941B1CA00BBAB44 /* bar_list.plist */,
+				237415E71941BC1600BBAB44 /* BarListViewController.h */,
+				237415E81941BC1600BBAB44 /* BarListViewController.m */,
+				237415EC1941F79900BBAB44 /* DetailViewController.h */,
+				237415ED1941F79900BBAB44 /* DetailViewController.m */,
 			);
 			path = Pubs;
 			sourceTree = "<group>";
@@ -182,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 237415C91941AC1900BBAB44 /* Build configuration list for PBXNativeTarget "Pubs" */;
 			buildPhases = (
+				3D05E4308B584F28BA6A314C /* Check Pods Manifest.lock */,
 				237415991941AC1900BBAB44 /* Sources */,
 				2374159A1941AC1900BBAB44 /* Frameworks */,
 				2374159B1941AC1900BBAB44 /* Resources */,
+				28A0C484261E47C588AEC238 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,12 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				237415E41941B1CA00BBAB44 /* bar_list.plist in Resources */,
-				237415D41941AC3800BBAB44 /* bar-madrid-1.jpg in Resources */,
-				237415D51941AC3800BBAB44 /* bar-madrid-2.jpg in Resources */,
-				237415D81941AC3800BBAB44 /* bar-madrid-5.jpg in Resources */,
+				237415E61941BA8B00BBAB44 /* Storyboard.storyboard in Resources */,
 				237415AB1941AC1900BBAB44 /* InfoPlist.strings in Resources */,
-				237415D71941AC3800BBAB44 /* bar-madrid-4.jpg in Resources */,
-				237415D61941AC3800BBAB44 /* bar-madrid-3.JPG in Resources */,
+				231F7F47194204F300A11162 /* ic_starredept.png in Resources */,
+				231F7F46194204F300A11162 /* ic_starred.png in Resources */,
 				237415B31941AC1900BBAB44 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,15 +287,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28A0C484261E47C588AEC238 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D05E4308B584F28BA6A314C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		237415991941AC1900BBAB44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				237415E91941BC1600BBAB44 /* BarListViewController.m in Sources */,
 				237415DB1941AC5900BBAB44 /* Bar.m in Sources */,
 				237415DE1941AFB000BBAB44 /* BarList.m in Sources */,
 				237415B11941AC1900BBAB44 /* AppDelegate.m in Sources */,
 				237415AD1941AC1900BBAB44 /* main.m in Sources */,
+				237415EE1941F79900BBAB44 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +445,7 @@
 		};
 		237415CA1941AC1900BBAB44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49951A925DC6436D9AD65FF3 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -407,6 +459,7 @@
 		};
 		237415CB1941AC1900BBAB44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49951A925DC6436D9AD65FF3 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -477,6 +530,7 @@
 				237415CB1941AC1900BBAB44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		237415CC1941AC1900BBAB44 /* Build configuration list for PBXNativeTarget "PubsTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +539,7 @@
 				237415CE1941AC1900BBAB44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

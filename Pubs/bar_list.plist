@@ -16,6 +16,8 @@
 		</dict>
 		<key>photoUrl</key>
 		<string>http://img.photobucket.com/albums/v644/spido/chiquito.jpg</string>
+		<key>rate</key>
+		<integer>1</integer>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -31,6 +33,8 @@
 		</dict>
 		<key>photoUrl</key>
 		<string>http://img.photobucket.com/albums/v644/spido/chiquito.jpg</string>
+		<key>rate</key>
+		<integer>2</integer>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -46,6 +50,8 @@
 		</dict>
 		<key>photoUrl</key>
 		<string>http://img.photobucket.com/albums/v644/spido/chiquito.jpg</string>
+		<key>rate</key>
+		<integer>3</integer>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -61,6 +67,8 @@
 		</dict>
 		<key>photoUrl</key>
 		<string>http://img.photobucket.com/albums/v644/spido/chiquito.jpg</string>
+		<key>rate</key>
+		<integer>4</integer>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -76,6 +84,8 @@
 		</dict>
 		<key>photoUrl</key>
 		<string>http://img.photobucket.com/albums/v644/spido/chiquito.jpg</string>
+		<key>rate</key>
+		<integer>5</integer>
 	</dict>
 </array>
 </plist>

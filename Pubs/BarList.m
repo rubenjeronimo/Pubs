@@ -11,6 +11,7 @@
 @interface BarList ()
 
 @property (nonatomic, strong) NSMutableArray *theList;
+@property NSInteger idBar;
 
 @end
 
@@ -55,11 +56,40 @@
             bar.address = [dict objectForKey:@"adress"];
             bar.position = [dict objectForKey:@"position"];
             bar.photoUrl = [dict objectForKey:@"photoUrl"];
+            bar.rate = [[dict objectForKey:@"rate"] integerValue];
             [_theList addObject:bar];
         }
     }
     return self;
 }
 
+
+- (Bar *)nextBar {
+    self.barNumber++;
+    NSLog(@"%ld", (long)self.barNumber);
+
+    
+    if (self.barNumber < [self.allBars count]) {
+        return [self.allBars objectAtIndex:self.barNumber];
+        
+    } else {
+        self.barNumber = 0;
+        
+        return [self.allBars objectAtIndex:0];
+    }
+    
+    
+}
+
+- (Bar *) prevBar{
+    self.barNumber--;
+    NSLog(@"%ld", (long)self.barNumber);
+    if (self.barNumber < 0) {
+        self.barNumber = [self.allBars count] - 1;
+        return [self.allBars objectAtIndex:[self.allBars count] - 1];
+    }else{
+        return [self.allBars objectAtIndex:self.barNumber];
+    }
+}
 
 @end
